@@ -1,0 +1,16 @@
+There's a secret passcode hidden in the robot's "history of cryptography" module. But it's encrypted!
+Here it is, hex-encoded: encrypted.txt. Can you find the hidden passcode?
+
+Hint:
+Like the title suggests, this is repeating-key XOR.
+You should try to find the length of the key - it's around 10 bytes long, maybe a little less or a little more.
+
+# Follow the following procedure
+Step 1: Key length identification
+1. Set the key length to test
+2. Shift the secret string by key_length
+3. Count the number of characters that are the same in the same position
+   between the original secret and its shifted version
+4. Take the highest frequency over different key length by repeating steps 1-3
+
+Step 2: Cryptoanalysis

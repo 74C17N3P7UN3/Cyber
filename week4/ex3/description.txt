@@ -1,0 +1,3 @@
+Perfectly secure. That's for sure! Or can you break it and reveal my secret?
+
+We are given an encryption script and the file used to encrypt it.
